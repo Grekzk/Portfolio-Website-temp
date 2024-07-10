@@ -1,0 +1,12 @@
+<div>
+    {% url 'index' as index_url %}
+    <span>{% if request.path == index_url %}Home{% else %}<a href="{{ index_url }}">Home</a>{% endif %}</span>
+    {% url 'services' as services_url %}
+    <span>{% if request.path == services_url %}Services{% else %}<a href="{{ services_url }}">Services</a>{% endif %}</span>
+    {% url 'resume' as resume_url %}
+    <span>{% if request.path == resume_url %}Resume{% else %}<a href="{{ resume_url }}">Resume</a>{% endif %}</span>
+    {% url 'work' as work_url %}
+    <span>{% if request.path == work_url %}Work{% else %}<a href="{{ work_url }}">Work</a>{% endif %}</span>
+    {% url 'contact' as contact_url %}
+    <span>{% if request.path == contact_url %}Contact{% else %}<a href="{{ contact_url }}">Contact</a>{% endif %}</span>
+</div>
