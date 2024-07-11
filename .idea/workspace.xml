@@ -4,8 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62e1c1da-0ee1-4749-82e8-46c15c554731" name="Changes" comment="pages + templates">
+    <list default="true" id="62e1c1da-0ee1-4749-82e8-46c15c554731" name="Changes" comment="static for pfapp">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/pfapp/templates/pfapp/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/pfapp/templates/pfapp/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/pfapp/templates/pfapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/pfapp/templates/pfapp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/pfapp/templates/pfapp/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/pfapp/templates/pfapp/navbar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/pfapp/templates/pfapp/services.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/pfapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/pfapp/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/pfapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/pfapp/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,9 +29,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2j2y0WzKRFYbEuC1GfCpYKJC81X" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -34,14 +40,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -82,13 +88,22 @@
       <option name="project" value="LOCAL" />
       <updated>1720606880484</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="static for pfapp">
+      <option name="closed" value="true" />
+      <created>1720688945748</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1720688945748</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fundament" />
     <MESSAGE value="pfapp creation + default migration" />
     <MESSAGE value="pages + templates" />
-    <option name="LAST_COMMIT_MESSAGE" value="pages + templates" />
+    <MESSAGE value="static for pfapp" />
+    <option name="LAST_COMMIT_MESSAGE" value="static for pfapp" />
   </component>
 </project>
