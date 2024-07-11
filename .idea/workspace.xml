@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62e1c1da-0ee1-4749-82e8-46c15c554731" name="Changes" comment="pfapp creation + default migration">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+    <list default="true" id="62e1c1da-0ee1-4749-82e8-46c15c554731" name="Changes" comment="pages + templates">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/pfapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/pfapp/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/pfapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/pfapp/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/portfolio/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/portfolio/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/portfolio/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/portfolio/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,12 +74,21 @@
       <option name="project" value="LOCAL" />
       <updated>1720601267386</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="pages + templates">
+      <option name="closed" value="true" />
+      <created>1720606880484</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1720606880484</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fundament" />
     <MESSAGE value="pfapp creation + default migration" />
-    <option name="LAST_COMMIT_MESSAGE" value="pfapp creation + default migration" />
+    <MESSAGE value="pages + templates" />
+    <option name="LAST_COMMIT_MESSAGE" value="pages + templates" />
   </component>
 </project>
