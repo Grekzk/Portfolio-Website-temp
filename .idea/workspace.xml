@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62e1c1da-0ee1-4749-82e8-46c15c554731" name="Changes" comment="bootstrapped navbar">
+    <list default="true" id="62e1c1da-0ee1-4749-82e8-46c15c554731" name="Changes" comment="home page template + copyright + privacy page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/pfapp/templates/pfapp/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/pfapp/templates/pfapp/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/pfapp/templates/pfapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/pfapp/templates/pfapp/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/pfapp/templates/pfapp/privacy.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/pfapp/templates/pfapp/privacy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/pfapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/pfapp/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/pfapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/pfapp/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/pfapp/templates/pfapp/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/pfapp/templates/pfapp/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/pfapp/templates/pfapp/resume.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/pfapp/templates/pfapp/resume.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/pfapp/templates/pfapp/work.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/pfapp/templates/pfapp/work.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +101,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720694285627</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="home page template + copyright + privacy page">
+      <option name="closed" value="true" />
+      <created>1720779821280</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1720779821280</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -112,6 +118,7 @@
     <MESSAGE value="pages + templates" />
     <MESSAGE value="static for pfapp" />
     <MESSAGE value="bootstrapped navbar" />
-    <option name="LAST_COMMIT_MESSAGE" value="bootstrapped navbar" />
+    <MESSAGE value="home page template + copyright + privacy page" />
+    <option name="LAST_COMMIT_MESSAGE" value="home page template + copyright + privacy page" />
   </component>
 </project>
