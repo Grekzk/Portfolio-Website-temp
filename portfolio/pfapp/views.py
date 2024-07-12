@@ -15,3 +15,7 @@ def work(request):
 
 def contact(request):
     return render(request, template_name='pfapp/contact.html')
+
+
+def privacy(request):
+    return render(request, template_name='pfapp/privacy.html')
