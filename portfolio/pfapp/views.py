@@ -1,4 +1,5 @@
 from django.shortcuts import render
+from .models import Project
 
 
 def index(request):
@@ -10,7 +11,11 @@ def resume(request):
 
 
 def work(request):
-    return render(request, template_name='pfapp/work.html')
+    projects = Project.objects.all()
+    context = {
+        'projects': projects,
+    }
+    return render(request, 'pfapp/work.html', context)
 
 
 def contact(request):
