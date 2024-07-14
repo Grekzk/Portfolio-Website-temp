@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from .models import Project
+from .models import Project, Experience, Education
 
 
 def index(request):
@@ -7,7 +7,13 @@ def index(request):
 
 
 def resume(request):
-    return render(request, template_name='pfapp/resume.html')
+    experiences = Experience.objects.all()
+    educations = Education.objects.all()
+    context = {
+        'exp_s': experiences,
+        'edu_s': educations,
+    }
+    return render(request, 'pfapp/resume.html', context)
 
 
 def work(request):
