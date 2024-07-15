@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62e1c1da-0ee1-4749-82e8-46c15c554731" name="Changes" comment="work section to admin control">
+    <list default="true" id="62e1c1da-0ee1-4749-82e8-46c15c554731" name="Changes" comment="exp/edu sections to admin control">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio/pfapp/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/pfapp/admin.py" afterDir="false" />
@@ -127,7 +127,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720955059636</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="exp/edu sections to admin control">
+      <option name="closed" value="true" />
+      <created>1720971481007</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1720971481007</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -138,6 +146,7 @@
     <MESSAGE value="bootstrapped navbar" />
     <MESSAGE value="home page template + copyright + privacy page" />
     <MESSAGE value="work section to admin control" />
-    <option name="LAST_COMMIT_MESSAGE" value="work section to admin control" />
+    <MESSAGE value="exp/edu sections to admin control" />
+    <option name="LAST_COMMIT_MESSAGE" value="exp/edu sections to admin control" />
   </component>
 </project>
