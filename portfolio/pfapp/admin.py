@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Project, Experience, Education, ProfessionalSkills, Languages
+from .models import Project, Experience, Education, ProfessionalSkills, Languages, PrivacyPolicy
 
 
 class ProjectAdmin(admin.ModelAdmin):
@@ -22,8 +22,13 @@ class LanguagesAdmin(admin.ModelAdmin):
     pass
 
 
+class PrivacyPolicyAdmin(admin.ModelAdmin):
+    pass
+
+
 admin.site.register(Project, ProjectAdmin)
 admin.site.register(Experience, ExperienceAdmin)
 admin.site.register(Education, EducationAdmin)
 admin.site.register(ProfessionalSkills, ProfessionalSkillsAdmin)
 admin.site.register(Languages, LanguagesAdmin)
+admin.site.register(PrivacyPolicy, PrivacyPolicyAdmin)

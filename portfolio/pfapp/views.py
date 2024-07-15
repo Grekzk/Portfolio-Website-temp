@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from .models import Project, Experience, Education, ProfessionalSkills, Languages
+from .models import Project, Experience, Education, ProfessionalSkills, Languages, PrivacyPolicy
 
 
 def index(request):
@@ -33,4 +33,8 @@ def contact(request):
 
 
 def privacy(request):
-    return render(request, template_name='pfapp/privacy.html')
+    blocks = PrivacyPolicy.objects.all()
+    context = {
+        'blocks': blocks,
+    }
+    return render(request, 'pfapp/privacy.html', context)

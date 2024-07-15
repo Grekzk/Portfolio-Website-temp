@@ -67,3 +67,11 @@ class Languages(models.Model):
             if Languages.objects.exists():
                 raise ValueError("Only one instance of SingleInstanceModel is allowed")
         super().save(*args, **kwargs)
+
+
+class PrivacyPolicy(models.Model):
+    header = models.CharField(max_length=50)
+    description = models.TextField()
+
+    def __str__(self):
+        return self.header

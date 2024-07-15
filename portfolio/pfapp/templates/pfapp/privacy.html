@@ -3,7 +3,37 @@
 {% block title %}Privacy-policy | Ivan Tykhonov{% endblock %}
 
 {% block content%}
-<h1>
-Template Privacy Page
-</h1>
+
+<body class="d-flex flex-column h-100 bg-light">
+    <main class="flex-shrink-0">
+        <section class="py-5">
+                <div class="container px-5 mb-5">
+                    <div class="text-left mb-5">
+                        <h1 class="display-5 fw-bolder mb-0"><span class="text-gradient d-inline">Privacy Policy</span></h1>
+                    </div>
+                    {% if blocks %}
+                        {% for block in blocks %}
+                            <div class="row gx-5 justify-content-left">
+                                <div class="col-lg-11 col-xl-9 col-xxl-8">
+                                    <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+                                        <div class="card-body p-0">
+                                            <div class="d-flex align-items-center">
+                                                <div class="p-5">
+                                                    <h2 class="fw-bolder">{{ block.header }}</h2>
+                                                    <p>{{ block.description }}</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        {% endfor %}
+                    {% else %}
+                    <p>No info yet</p>
+                    {% endif %}
+                </div>
+        </section>
+    </main>
+</body>
+
 {% endblock %}
