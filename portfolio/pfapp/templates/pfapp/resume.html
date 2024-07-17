@@ -1,4 +1,5 @@
 {% extends 'pfapp/base.html' %}
+{% load static %}
 
 {% block title %}Resume | Ivan Tykhonov{% endblock %}
 
@@ -19,7 +20,7 @@
                             <h2 class="text-primary fw-bolder mb-0">Experience</h2>
                             <!-- Download resume button-->
                             <!-- The link href target to a PDF file within current project-->
-                            <a class="btn btn-primary px-4 py-3 ms-3" href="#!">
+                            <a class="btn btn-primary px-4 py-3 ms-3" href="{% static 'pfapp/assets/Ivan_Tykhonov_-_Python_Developer.pdf' %}">
                                 <div class="d-inline-block bi bi-download me-2"></div>
                                 Download Resume
                             </a>
