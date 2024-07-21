@@ -4,19 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62e1c1da-0ee1-4749-82e8-46c15c554731" name="Changes" comment="linkedin + github links">
+    <list default="true" id="62e1c1da-0ee1-4749-82e8-46c15c554731" name="Changes" comment="info + resume">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/pfapp/static/pfapp/assets/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/pfapp/static/pfapp/assets/sample1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/pfapp/static/pfapp/assets/sample1_IRsNLJl.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/pfapp/static/pfapp/assets/sample1_XCI7Jv6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/pfapp/static/pfapp/assets/sample1_alocqv0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/pfapp/static/pfapp/assets/sample1_c6NHDhz.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/pfapp/static/pfapp/assets/sample1_e8voUDt.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/pfapp/templates/pfapp/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/pfapp/templates/pfapp/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio/pfapp/templates/pfapp/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/pfapp/templates/pfapp/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio/pfapp/templates/pfapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/pfapp/templates/pfapp/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/pfapp/templates/pfapp/resume.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/pfapp/templates/pfapp/resume.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,17 +38,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/PyWorld/PortfolioProjects/PortWeb/portfolio/templates/admin&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/PyWorld/PortfolioProjects/PortWeb/portfolio/pfapp/static/pfapp/assets"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\PyWorld\PortfolioProjects\PortWeb\portfolio\pfapp\static\pfapp\assets" />
       <recent name="C:\PyWorld\PortfolioProjects\PortWeb\portfolio\templates\admin" />
     </key>
   </component>
@@ -171,7 +165,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721044664041</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="info + resume">
+      <option name="closed" value="true" />
+      <created>1721239190861</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1721239190861</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -185,6 +187,7 @@
     <MESSAGE value="exp/edu sections to admin control" />
     <MESSAGE value="privacy policy page complete" />
     <MESSAGE value="linkedin + github links" />
-    <option name="LAST_COMMIT_MESSAGE" value="linkedin + github links" />
+    <MESSAGE value="info + resume" />
+    <option name="LAST_COMMIT_MESSAGE" value="info + resume" />
   </component>
 </project>
